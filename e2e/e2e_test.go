@@ -16,8 +16,8 @@ const (
 )
 
 var (
-	istioCluster14 = "addon116"
-	istioCluster16 = "asm-test"
+	istioCluster14 = "gke_linggg-istio-002_us-central1-c_e2eaddon14"
+	istioCluster16 = "gke_linggg-istio-002_us-central1-c_addon16"
 )
 
 func setup(t *testing.T, name string) func() {
